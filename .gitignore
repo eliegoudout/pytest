@@ -57,3 +57,7 @@ pip-wheel-metadata/
 
 # pytest debug logs generated via --debug
 pytestdebug.log
+
+# For working on #13180 (remove before final request)
+.autouse-in-namespace
+uv.lock
